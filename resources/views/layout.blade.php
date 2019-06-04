@@ -8,13 +8,13 @@
 </head>
 <body>
 
-    @yield('content')
-
     <ul>
        <li> Klik <a href="/info">hier</a> voor info </li>
        <li> Klik <a href="/contact">hier</a> voor de contactpagina </li>
        <li> Klik <a href="/">hier</a> voor de homepage </li>
     </ul>
+
+    @yield('content')
 
 </body>
 </html>
