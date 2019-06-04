@@ -1,7 +1,9 @@
 @extends('layout')
 
-    @section('content')
+@section('title', 'Info')
 
-        <h2>Dit is de info page</h2>
+@section('content')
 
-    @endsection
+    <h2>Dit is de info page</h2>
+
+@endsection

@@ -1,7 +1,9 @@
 @extends('layout')
 
-    @section('content')
+@section('title', 'Contact')
 
-        <h2>Dit is de contact page</h2>
+@section('content')
 
-    @endsection
+    <h2>Dit is de contact page</h2>
+
+@endsection
